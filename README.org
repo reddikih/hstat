@@ -1,1 +1,25 @@
 #+TITLE: A Simple statistics calculator
+
+* Usag
+
+#+BEGIN_EXAMPLE shell
+$ cat a.dat
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+$ ./hstat a.dat
+min     max     mean    var     stddev
+1       10      5.5     6.225   2.49499
+
+$ cat a.dat | ./hstat
+min     max     mean    var     stddev
+1       10      5.5     6.225   2.49499
+#+END_EXAMPLE
