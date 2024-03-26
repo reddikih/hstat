@@ -1,6 +1,6 @@
 #+TITLE: A Simple statistics calculator
 
-* Usag
+* Usage
 
 #+BEGIN_EXAMPLE shell
 $ cat a.dat
